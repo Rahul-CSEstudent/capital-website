@@ -33,6 +33,13 @@
     <link href="css/style.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
     <link href="css/popup.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .popup-content {
+            overflow-y: scroll;
+            height: 16rem;
+        }
+    </style>
    
 </head>
 
@@ -111,13 +118,26 @@
 
                         <!-- <button id="popup-button">Open Popup</button> -->
                         <div id="popup1" class="popup">
-                            <p>Suspendisse sodales nisl ac justo vestibulum scelerisque. Sed et semper turpis. Integer a
-                                metus ac lacus viverra hendrerit in sit amet nunc. Donec sem ex, tincidunt ac velit vel,
-                                ornare sodales lacus. Vivamus vel ipsum libero. Sed malesuada auctor sapien, vel
-                                faucibus sapien congue vel. Sed id justo eget quam dapibus suscipit a non sem.
-                                Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis
-                                egestas. Nulla interdum tortor sed leo feugiat, nec bibendum est feugiat. Fusce sit amet
-                                lacus eu eros pretium dictum vel eu quam. Fusce rutrum convallis enim vel tristique.</p>
+                            <div class="popup-content">
+                                <div class="elementor-text-editor elementor-clearfix">
+                                    <p><em>“We design buildings and places that are purposeful, simple, efficient and beautiful.”</em></p>
+                                    <p>Capital Engineering Consultancy is one of the leading Consultancies in the U.AE. Over the past decade, we have worked on various projects ranging from the concept stage to detail drawings stage to authority submissions and construction stage.</p>
+                                    <p>We believe in Integrity and Commitment which are two important aspects in delivering excellent results to our clients.</p>
+                                    <p>At Capital Engineering Consultancy, Architectural Designs are unique in Concept and Bold in Execution.</p>
+                                    <p>Our scope of services for architecture include:</p>
+                                    <ol>
+                                        <li>1. Concept Design Development</li>
+                                        <li>2. Detail Design Development</li>
+                                        <li>3. Preparation of Construction Documents and Drawings</li>
+                                        <li>4. Preparation of As Built Drawings</li>
+                                        <li>5. Feasibility Studies</li>
+                                        <li>6. Bidding and Negotiation</li>
+                                        <li>7. Construction and Contract Administration</li>
+                                        <li>8. Architect of Record</li>
+                                        <li>9. Project Management</li>
+                                    </ol>
+                                </div>
+                            </div>
                           
                             <div class="close-button" onclick="hidePopup('popup1')">Close</div>
                         </div>
