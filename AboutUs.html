@@ -31,6 +31,7 @@
 
     
     <link href="css/styles.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
     <style>
       
       /* The hero image */
@@ -75,6 +76,21 @@
     width:500px;
     height:330px;
     padding-bottom: 10px;
+  }
+
+  .img-div{
+    aspect-ratio: 4/3;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .right-image-div {
+    background-image: url('images/right.jpg');
+  }
+
+  .left-image-div {
+    background-image: url('images/left.jpg');
   }
 
   @media (max-width:1512px) {
@@ -136,21 +152,53 @@
     </div>
   </div>
 </div>
-        <p style="margin: 5% 5% 0 ;"><img src="images/right.jpg" align="right" width="500px" height="380px" valign="middle" vspace="5" hspace="5" style="margin-left:30px"/></p>
-          <div style="text-align: justify;margin:0 5% 0;">Capital Engineering Consultancy is an established consulting firm in United Arab Emirates since 2006 and having multiple satellite offices in the region, 
-          India, Iraq, KSA, UK with specialized expertise in Engineering Consultancy, Designing of Residential, Commercial Industrial Developments, Institutional, 
-          Hotel, Leisure Facilities, Oil & Gas, Road and Infrastructure, Environmental Solutions, BIM services etc. 
-          Our designs are unique in concept, bold in execution and at the same time, responsive to the client’s diverse requirements.
-          Our rapid growth and 
-          impressive list of clients bear testimony to our commitment to produce the best in every project we are commissioned to undertake. </div>
-          <div style="margin-top: 20px; text-align: justify;margin:0 5% 0;">
-          Our rapid growth and impressive list of clients bear testimony to our commitment to produce the best in every project we are commissioned to undertake.
-          Having designed and executed works for clients ranging from Sharjah Ruler’s office, Dubai Metro, large Real Estate Developers, Corporations, Leading Contractors and Individuals,
-          we are now in an enviable position of being better equipped to deliver successfully, designs for jobs of any size, nature and complexity.
-          These include schools, residential complexes, villa complexes, leisure facilities, industrial buildings, industrial plants, cooling plants, etc.
-          At CAPITAL, we focus deeply on the design potential of each work, converting it into built reality, within the time frame and budget provided. 
+        <div class="flex justify-between px-4 mt-14 mx-5">
+          <div class="img-div right-image-div w-1/4 my-auto mr-4 h-full"></div>
+          <div class="w-3/4">
+            Capital Engineering Consultancy is an established consulting firm in United Arab Emirates since 2006 and having multiple satellite offices in the region, 
+            India, Iraq, KSA, UK with specialized expertise in Engineering Consultancy, Designing of Residential, Commercial Industrial Developments, Institutional, 
+            Hotel, Leisure Facilities, Oil & Gas, Road and Infrastructure, Environmental Solutions, BIM services etc. 
+            Our designs are unique in concept, bold in execution and at the same time, responsive to the client’s diverse requirements.
+            Our rapid growth and 
+            impressive list of clients bear testimony to our commitment to produce the best in every project we are commissioned to undertake. 
+            <br/>
+            <br/>
+            Our rapid growth and impressive list of clients bear testimony to our commitment to produce the best in every project we are commissioned to undertake.
+            Having designed and executed works for clients ranging from Sharjah Ruler’s office, Dubai Metro, large Real Estate Developers, Corporations, Leading Contractors and Individuals,
+            we are now in an enviable position of being better equipped to deliver successfully, designs for jobs of any size, nature and complexity.
+            These include schools, residential complexes, villa complexes, leisure facilities, industrial buildings, industrial plants, cooling plants, etc.
+            At CAPITAL, we focus deeply on the design potential of each work, converting it into built reality, within the time frame and budget provided. 
+          </div>
         </div>
-        <p style="margin: 5% 5% 0 ;"><img src="images/left.jpg" align="left"  valign="middle" vspace="5" hspace="5" style="margin-right:30px" class="imgsiz"/></p>
+        <div class="flex justify-between px-4 mt-14 mx-5">
+          <div class="w-3/4">
+            To maintain effective and high standards of service offered to our clients, positive efforts are made to recruit the best Architects,
+            Engineers and then train them to ensure CAPITAL remains at the forefront of all disciplines.
+            Our staff have decades of experience in their profession, with dedication and commitment to the jobs assigned to them
+            At CAPITAL, we focus deeply on the design potential of each work, converting it into built reality, within the time frame and budget provided.
+            To maintain effective and high standards of service offered to our clients, positive efforts are made to recruit the best Architects,
+            Engineers and then train them to ensure CAPITAL remains at the forefront of all disciplines. 
+            <br/>
+            <br/>
+            Our staff have decades of experience in their profession, with dedication and commitment to the jobs assigned to them.
+            Core activity of our company is Architectural & Structural Design of Industrial Buildings / Plants.
+            Our Engineers have vast experience to fulfill our client’s requirements.
+            We are designers aiming to build relationship, concept and designs with our clients and the communities we work within.
+            We are committed to bring out innovative design incorporating international standards.Working across sectors as diverse as civic,
+            commercial, cultural, hospitality, retail, health, education, industry and transport our wealth of experience allows us to be at
+            the forefront of today’s creative industries pushing boundaries and always innovating.
+          </div>
+          <div class="img-div left-image-div w-1/4 my-auto ml-4 h-full"></div>
+        </div>
+        <!-- <p style="margin: 5% 5% 0 ;">
+          <img src="images/right.jpg" align="right" width="500px" height="380px" valign="middle" vspace="5" hspace="5" style="margin-left:30px"/>
+        </p>
+          <div style="text-align: justify;margin:0 5% 0;">
+        </div>
+        <p style="margin: 5% 5% 0 ;">
+          <div class="img-div left-image-div"></div>
+          <img src="images/left.jpg" align="left"  valign="middle" vspace="5" hspace="5" style="margin-right:30px" class="imgsiz"/>
+        </p>
         <div style="text-align: justify;margin:0 5% 0;">
           To maintain effective and high standards of service offered to our clients, positive efforts are made to recruit the best Architects,
           Engineers and then train them to ensure CAPITAL remains at the forefront of all disciplines.
@@ -167,7 +215,7 @@
             We are committed to bring out innovative design incorporating international standards.Working across sectors as diverse as civic,
             commercial, cultural, hospitality, retail, health, education, industry and transport our wealth of experience allows us to be at
             the forefront of today’s creative industries pushing boundaries and always innovating.
-          </div>
+          </div> -->
 
           <div class="copyright">
             <div class="container">
